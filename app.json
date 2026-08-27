@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Punch",
+    "slug": "punch-temp-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "punch",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.punch.chat",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.punch.chat",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Punch uses the microphone for voice input."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Punch lets you attach photos to your messages."
+        }
+      ],
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
