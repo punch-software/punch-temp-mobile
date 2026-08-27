@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Warm paper light theme */
+  --background: 250 249 245;
+  --surface: 255 255 255;
+  --surface-high: 244 242 236;
+  --bubble: 240 238 230;
+  --foreground: 38 37 33;
+  --muted: 112 109 100;
+  --faint: 164 161 151;
+  --line: 234 232 223;
+  --line-strong: 219 216 206;
+  --accent: 193 95 60;
+  --accent-soft: 247 237 232;
+  --on-accent: 255 255 255;
+  --danger: 186 55 42;
+  --code-bg: 40 39 36;
+  --code-fg: 232 230 221;
+  --code-chrome: 56 55 51;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 38 38 36;
+    --surface: 48 48 45;
+    --surface-high: 58 57 53;
+    --bubble: 60 59 55;
+    --foreground: 236 234 228;
+    --muted: 168 165 155;
+    --faint: 124 121 112;
+    --line: 58 57 53;
+    --line-strong: 74 73 68;
+    --accent: 217 119 87;
+    --accent-soft: 66 51 44;
+    --on-accent: 255 255 255;
+    --danger: 226 100 86;
+    --code-bg: 30 30 28;
+    --code-fg: 226 224 216;
+    --code-chrome: 48 48 45;
+  }
+}
